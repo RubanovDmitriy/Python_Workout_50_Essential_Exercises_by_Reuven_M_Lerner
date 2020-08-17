@@ -14,7 +14,7 @@ WORK_DICT = {
     3: 'news',
     4: 'head',
     5: 'arm',
-    6: 'hui',
+    6: 'rot',
 }
 
 
