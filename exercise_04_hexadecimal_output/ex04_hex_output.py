@@ -3,4 +3,5 @@ def hex_output():
     print(int(hexnum, 16))
 
 
-hex_output()
+if __name__ == '__main__':
+    hex_output()

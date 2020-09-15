@@ -1,11 +1,6 @@
 from io import StringIO
 import pytest
-# from exercise_4_hexadecimal_output.ex04_hex_output import hex_output
-
-
-def hex_output():
-    hexnum = input('Give me your hex: ')
-    print(int(hexnum, 16))
+from .ex04_hex_output import hex_output
 
 
 @pytest.mark.parametrize('user_input, output', [
