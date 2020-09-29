@@ -1,8 +1,6 @@
-vowels = ('a', 'e', 'i', 'o', 'u')
-list_sentence = []
-
-
 def pl_sentence(sentence):
+    vowels = ('a', 'e', 'i', 'o', 'u')
+    list_sentence = []
     for word in sentence.split():
         if word[0] in vowels:
             list_sentence.append(f'{word}way')
