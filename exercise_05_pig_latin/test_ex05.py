@@ -1,4 +1,5 @@
 import pytest
+
 from exercise_05_pig_latin.ex05_pig_latin import pig_latin
 
 

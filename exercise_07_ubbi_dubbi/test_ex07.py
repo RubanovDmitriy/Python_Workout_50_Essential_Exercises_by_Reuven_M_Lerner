@@ -1,4 +1,5 @@
 import pytest
+
 from exercise_07_ubbi_dubbi.ex_07_ubbi_dubbi import ubbi_dubbi
 from exercise_07_ubbi_dubbi.ex_07_ubbi_dubbi_capital import ubbi_dubbi_capital
 

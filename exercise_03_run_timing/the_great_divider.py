@@ -11,7 +11,7 @@ def divider(number: float,
     to_string = str(number)
     dot = to_string.index('.')
 
-    return float(to_string[dot-before:dot+after+1])
+    return float(to_string[dot - before: dot + after + 1])
 
 
 divider(1234.1234, 2, 3)

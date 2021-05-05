@@ -8,6 +8,3 @@ def mysum(numbers, start=0):
     for ele in range(0, len(numbers)):
         result = result + numbers[ele]
     return result / lenght
-
-
-print(mysum([1, 2, 3, 4, 5]))

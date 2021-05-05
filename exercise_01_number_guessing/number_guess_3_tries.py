@@ -1,7 +1,7 @@
+import random
+
 'Modify this program, such that it gives the user only three chances to guess the correct number.'
 'If they try three times without success, the program tells them that they didn’t guess in time and then exits.'
-
-import random
 
 
 def guessing_game():

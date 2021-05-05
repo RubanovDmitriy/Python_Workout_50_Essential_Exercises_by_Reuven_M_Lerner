@@ -10,12 +10,10 @@ def ubbi_dubbi_capital(word):
         else:
             list_word.append(letter)
 
-    final_result = ''.join(list_word)
-
     if word[0] in string.ascii_uppercase:
         list_word[0] = list_word[0].capitalize()
 
-    return final_result
+    return ''.join(list_word)
 
 
 if __name__ == '__main__':

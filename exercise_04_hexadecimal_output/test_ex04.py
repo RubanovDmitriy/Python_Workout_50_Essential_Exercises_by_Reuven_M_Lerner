@@ -1,5 +1,7 @@
 from io import StringIO
+
 import pytest
+
 from .ex04_hex_output import hex_output
 
 

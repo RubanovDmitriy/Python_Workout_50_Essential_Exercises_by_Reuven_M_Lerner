@@ -7,9 +7,7 @@ def ubbi_dubbi(word):
         else:
             list_word.append(letter)
 
-    final_result = ''.join(list_word)
-
-    return final_result
+    return ''.join(list_word)
 
 
 if __name__ == '__main__':

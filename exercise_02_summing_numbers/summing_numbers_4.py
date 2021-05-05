@@ -20,6 +20,3 @@ def words_to_tuple(words):
     result_list = [short, long, average]
 
     return(tuple(result_list))
-
-
-print(words_to_tuple(['privet', 'hui', 'tvoi_rot', 'rakamakafo']))

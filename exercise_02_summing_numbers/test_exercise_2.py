@@ -1,5 +1,3 @@
-import pytest
-
 from exercise_02_summing_numbers.summing_numbers_4 import words_to_tuple
 
 
