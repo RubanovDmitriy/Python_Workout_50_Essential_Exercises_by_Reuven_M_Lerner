@@ -9,7 +9,7 @@ def avg_run_time():
         try:
             resulted_run_time.append(float(one_run))
         except ValueError as e:
-            print('Hey! That\'s not a valid number!')
+            print(f'Hey! {e}\'s not a valid number!')
 
     average_run_time = sum(resulted_run_time) / len(resulted_run_time)
 

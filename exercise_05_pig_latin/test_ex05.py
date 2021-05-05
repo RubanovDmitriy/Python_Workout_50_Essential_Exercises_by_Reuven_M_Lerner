@@ -3,7 +3,7 @@ import pytest
 from exercise_05_pig_latin.ex05_pig_latin import pig_latin
 
 
-@pytest.mark.parametrize('input_word, output_word', [
+@pytest.mark.parametrize(('input_word', 'output_word'), [
     ('computer', 'omputercay'),
     ('table', 'abletay'),
     ('papaya', 'apayapay'),
