@@ -5,7 +5,7 @@ PEOPLE = [
         'first': 'Reuven',
         'last': 'Lerner',
         'email': 'reuven@lerner.co.il'
-     },
+    },
     {
         'first': 'Donald',
         'last': 'Trump',

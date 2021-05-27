@@ -23,7 +23,7 @@ def test_with_people():
 
 @pytest.mark.parametrize(('numbers', 'sorted_numbers'), [
     ([1, 55, -999, 5, 6, 78], [1, 5, 6, 55, 78, -999]),
-    ([2, 43, -7, 52, 16, 87] ,[2, -7, 16, 43, 52, 87]),
+    ([2, 43, -7, 52, 16, 87], [2, -7, 16, 43, 52, 87]),
     ([], []),
 ])
 def test_sort_absolute(numbers, sorted_numbers):
