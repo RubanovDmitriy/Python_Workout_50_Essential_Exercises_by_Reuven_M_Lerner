@@ -14,6 +14,3 @@ def avg_run_time():
     average_run_time = sum(resulted_run_time) / len(resulted_run_time)
 
     return print(f'Average of {average_run_time}, over {len(resulted_run_time)} runs')
-
-
-avg_run_time()
