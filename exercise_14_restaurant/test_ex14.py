@@ -1,6 +1,6 @@
+from io import StringIO
 
 import pytest
-from io import StringIO
 
 from exercise_14_restaurant.exercise_14_loginpass import login_pass
 from exercise_14_restaurant.exercise_14_restaurant import restaurant
