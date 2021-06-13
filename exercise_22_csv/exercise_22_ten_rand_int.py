@@ -1,5 +1,4 @@
 import csv
-
 from random import randint
 from statistics import mean
 
