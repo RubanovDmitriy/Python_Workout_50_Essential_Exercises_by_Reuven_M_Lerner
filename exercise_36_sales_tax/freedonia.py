@@ -1,6 +1,5 @@
 from decimal import Decimal
 
-
 rates = {
     'Chico': Decimal('0.5'),
     'Groucho': Decimal('0.7'),
