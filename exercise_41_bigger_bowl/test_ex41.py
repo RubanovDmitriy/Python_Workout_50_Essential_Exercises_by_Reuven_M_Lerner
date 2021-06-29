@@ -37,7 +37,3 @@ def test_big():
     assert s1 in b.scoops
     assert s2 in b.scoops
     assert s3 in b.scoops
-    assert s4 in b.scoops
-    assert s5 in b.scoops
-
-    assert str(b) == 'chocolate\nvanilla\npersimmon\nflavor 4\nflavor 5'
