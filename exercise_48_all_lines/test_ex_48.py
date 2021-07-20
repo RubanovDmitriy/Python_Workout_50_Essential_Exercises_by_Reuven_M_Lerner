@@ -35,6 +35,6 @@ def test_empty(tmp_path):
 
 def test_simple(tmp_path, small_file, big_file):
     lines = list(all_lines(tmp_path))
-    assert len(lines) == 9
-    assert lines[0] == 'This is the first line\n'
+    assert len(lines) == 8
+    assert lines[0] == 'This is the first line of a big file\n'
     assert lines[-1] == 'but the biggest word will probably be encyclopedia'
